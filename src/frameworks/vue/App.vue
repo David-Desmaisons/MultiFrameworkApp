@@ -18,7 +18,6 @@ export default {
       required: true
     }
   },
-  inheritAttrs: false,
   name: "app",
   methods: {
     setName(event) {
