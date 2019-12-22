@@ -45,8 +45,7 @@ module.exports = (_, argv) => ({
     new VueLoaderPlugin()
   ],
   output: {
-    libraryTarget: "umd",
-    library: "poor-man-ui-framework",
+    chunkFilename: '[name].bundle.js',
     filename: "main.js",
     path: path.resolve(__dirname, "dist")
   }
