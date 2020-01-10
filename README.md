@@ -10,7 +10,6 @@ Using degit:
 
 ```bash
 npm install -g degit
-degit JS-Dev-Lab/MultiFrameworkApp
 ```
 
 2. Clone the template
