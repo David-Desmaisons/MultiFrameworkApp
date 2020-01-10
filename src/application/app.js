@@ -1,9 +1,8 @@
 function run(createView) {
   const view = createView({
     state: {
-      name: "universal application!!",
-      count: 0,
-      array: [],
+      name: "Welcome to mvi!!",
+      count: 0
     },
     commands: {
       add() {
