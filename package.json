@@ -82,6 +82,11 @@
     "not ie <= 8"
   ],
   "dependencies": {
-    "lit-html": "^1.1.2"
+    "lit-html": "^1.1.2",
+    "mvi.core": "^1.2.0",
+    "mvi.lit-html": "^1.2.0",
+    "mvi.react": "^1.2.0",
+    "mvi.vanilla": "^1.2.0",
+    "mvi.vue": "^1.2.0"
   }
 }

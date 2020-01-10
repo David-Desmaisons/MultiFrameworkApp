@@ -8,7 +8,7 @@ class App extends Component {
 
   render() {
     const { state } = this;
-    const { commands: { add, setName } } = state;
+    const { commands: { add, setName } } = this.props;
     const onChange = event => {
       setName(event.target.value);
     };

@@ -1,10 +1,10 @@
 async function getEngine(type) {
   try {
-    const { engine } = await import(
+    const { createView } = await import(
       /* webpackChunkName: "[request]" */
       `./frameworks/${type}/bootstrap`
     );
-    return engine;
+    return createView;
   } catch {
     throw new Error(`invalid type: ${type}`);
   }

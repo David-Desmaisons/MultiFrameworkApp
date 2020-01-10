@@ -1,6 +1,6 @@
 import { html } from 'lit-html';
 
-function template({ array, commands, name, count }) {
+function template({ state: { array, name, count }, commands }) {
   return html`<h1>Hello ${name}</h1>
  <input value=${name} @input=${(e) => commands.setName(e.target.value)}></input>
  <p>${name.length}</p>

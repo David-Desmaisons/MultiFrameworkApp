@@ -1,7 +1,7 @@
-import { UIEngine } from "./infra/engine";
+import { viewCreatorFactory } from "mvi.react";
 import App from "./App";
 
 const root = document.getElementById("app");
-const engine = new UIEngine(App, root);
+const createView = viewCreatorFactory(App, root);
 
-export { engine };
+export { createView };
