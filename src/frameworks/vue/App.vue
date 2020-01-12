@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <h1>Hello {{state.name}}</h1>
+    <h1>{{state.name}}</h1>
     <input
       :value="state.name"
       @input="setName"
