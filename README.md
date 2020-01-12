@@ -23,5 +23,5 @@ degit JS-Dev-Lab/MultiFrameworkApp my-new-project
 ```bash
 cd my-new-project
 npm install
-npm run start
+npm run serve
 ```
