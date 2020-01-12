@@ -17,3 +17,11 @@ npm install -g degit
 ```bash
 degit JS-Dev-Lab/MultiFrameworkApp my-new-project
 ```
+
+3. Start working
+
+```bash
+cd my-new-project
+npm install
+npm run start
+```
