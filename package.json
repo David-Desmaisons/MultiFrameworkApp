@@ -1,7 +1,7 @@
 {
-  "name": "poor-man-ui-framework",
+  "name": "mvi-application",
   "version": "1.0.1",
-  "description": "DIY UI framework",
+  "description": "MVI application",
   "main": "dist/main.js",
   "scripts": {
     "prepublishOnly": "npm run build",
@@ -13,10 +13,7 @@
     "url": "git+https://github.com/David-Desmaisons/wtuif.git"
   },
   "keywords": [
-    "ui",
-    "framework",
-    "javascript",
-    "DIY"
+    "mvi"
   ],
   "author": "David Desmaisons",
   "license": "MIT",
