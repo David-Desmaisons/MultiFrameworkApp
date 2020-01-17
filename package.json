@@ -80,10 +80,10 @@
   ],
   "dependencies": {
     "lit-html": "^1.1.2",
-    "mvi.core": "^1.2.0",
-    "mvi.lit-html": "^1.2.0",
-    "mvi.react": "^1.2.0",
-    "mvi.vanilla": "^1.2.0",
-    "mvi.vue": "^1.2.0"
+    "mvi.core": "^1.3.0",
+    "mvi.lit-html": "^1.3.0",
+    "mvi.react": "^1.3.0",
+    "mvi.vanilla": "^1.3.0",
+    "mvi.vue": "^1.3.0"
   }
 }
